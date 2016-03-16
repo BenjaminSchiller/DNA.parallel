@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="all" name="all">
+    <target name="all" depends="partitioning, computation, collation, dna2giraph"/>
+
+    <target name="partitioning">
+        <jar destfile="partitioning.jar" filesetmanifest="mergewithoutmain">
+            <manifest>
+                <attribute name="Main-Class" value="dna.parallel.components.Partitioning"/>
+                <attribute name="Class-Path" value="."/>
+            </manifest>
+            <fileset dir="/Users/benni/TUD/Projects/ArgList/bin"/>
+            <fileset dir="../java/bin"/>
+            <fileset dir="../../DNA/config"/>
+            <fileset dir="../../DNA/bin"/>
+			<zipgroupfileset dir="../../DNA/lib/" includes="aspectjrt-1.7.4.jar" />
+			<zipgroupfileset dir="../../DNA/lib/" includes="gs-core-1.3.jar" />
+			<zipgroupfileset dir="../../DNA/lib/" includes="guava-16.0.1.jar" />
+        </jar>
+    </target>
+
+    <target name="computation">
+        <jar destfile="computation.jar" filesetmanifest="mergewithoutmain">
+            <manifest>
+                <attribute name="Main-Class" value="dna.parallel.components.Computation"/>
+                <attribute name="Class-Path" value="."/>
+            </manifest>
+            <fileset dir="/Users/benni/TUD/Projects/ArgList/bin"/>
+            <fileset dir="../java/bin"/>
+            <fileset dir="../../DNA/config"/>
+            <fileset dir="../../DNA/bin"/>
+			<zipgroupfileset dir="../../DNA/lib/" includes="aspectjrt-1.7.4.jar" />
+			<zipgroupfileset dir="../../DNA/lib/" includes="gs-core-1.3.jar" />
+			<zipgroupfileset dir="../../DNA/lib/" includes="guava-16.0.1.jar" />
+        </jar>
+    </target>
+
+    <target name="collation">
+        <jar destfile="collation.jar" filesetmanifest="mergewithoutmain">
+            <manifest>
+                <attribute name="Main-Class" value="dna.parallel.components.Collation"/>
+                <attribute name="Class-Path" value="."/>
+            </manifest>
+            <fileset dir="/Users/benni/TUD/Projects/ArgList/bin"/>
+            <fileset dir="../java/bin"/>
+            <fileset dir="../../DNA/config"/>
+            <fileset dir="../../DNA/bin"/>
+			<zipgroupfileset dir="../../DNA/lib/" includes="aspectjrt-1.7.4.jar" />
+			<zipgroupfileset dir="../../DNA/lib/" includes="gs-core-1.3.jar" />
+			<zipgroupfileset dir="../../DNA/lib/" includes="guava-16.0.1.jar" />
+        </jar>
+    </target>
+
+    <target name="dna2giraph">
+        <jar destfile="dna2giraph.jar" filesetmanifest="mergewithoutmain">
+            <manifest>
+                <attribute name="Main-Class" value="dna.parallel.io.DNA2Giraph"/>
+                <attribute name="Class-Path" value="."/>
+            </manifest>
+            <fileset dir="/Users/benni/TUD/Projects/ArgList/bin"/>
+            <fileset dir="../java/bin"/>
+            <fileset dir="../../DNA/config"/>
+            <fileset dir="../../DNA/bin"/>
+			<zipgroupfileset dir="../../DNA/lib/" includes="aspectjrt-1.7.4.jar" />
+			<zipgroupfileset dir="../../DNA/lib/" includes="gs-core-1.3.jar" />
+			<zipgroupfileset dir="../../DNA/lib/" includes="guava-16.0.1.jar" />
+        </jar>
+    </target>
+</project>
