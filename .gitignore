@@ -1,0 +1,6 @@
+build/*.jar
+build/data*
+build/*.sh
+
+java/config
+java/data
