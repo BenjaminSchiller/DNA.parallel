@@ -4,42 +4,51 @@
 
 ## file structure for an analysis
 
-### input data
 
-	input/
-		collation/
-			0.dnag_aux
-			1.dnab_aux
-			2.dnab_aux
+### output of partitioning / splitting
+
+Here, P indicates the partition type, i.e., Complete, Separated, or Overlapping.
+
+	1-partitioning/
+		aux/
+			0.aux.P.Init			1.aux.P.Add			1.aux.P.Remove			2.aux.P.Add			2.aux.P.Remove
 			...
 		worker0/
-			0.dnag
-			1.dnab
-			2.dnab
+			0.dnag			1.dnab			2.dnab
 			...
 		worker1/
 			...
 		worker2/
 			...
-	
-### output data
-	
-	output/
-		collation/
+		worker3/
+			...
+		...
+
+### output of workers / computation
+
+	2-computation/
+		worker0/
 			run.0/
 				batch.0/
 				batch.1/
 				batch.2/
 				...
-			run.1/
-				...
-			run.2/
-				...
-		worker0/
-			...
-		worker1/
-			...
 		worker2/
+			...
+		worker3/
+			...
+		...
+
+
+### output of collation
+
+	3-collation/
+		run.0/
+			batch.0/
+			batch.1/
+			batch.2/
+			...
+
 
 ## aux file formats
 
