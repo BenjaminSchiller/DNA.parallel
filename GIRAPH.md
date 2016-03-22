@@ -16,13 +16,14 @@ This computation is executed in the pseudo-distributed setting of Giraph, i.e., 
 
 The wrapper script takes the following arguments:
 
-	./giraph.sh $inputDir $from $to $outputDir $metric $workers
+	./giraph.sh $inputDir $from $to $outputDir $metric $partitioning $workers
 
 		$inputDir: directory where the dataset is stored (ending with /)
 		$from: first snapshot to process
 		$to: last snapshot to process
 		$outputDir: directory where to store all output data
 		$metric: keyword that specifies the metric to compute (see below)
+		$partitioning: keyword that specifies the partitioning scheme to use (see below)
 		$workers: number of workers
 
 As an example, take the following execution:
@@ -36,7 +37,7 @@ For each snapshot, the weak connectivity (WC) is computed and the work divided a
 
 ## Metrics
 
-The following metrics are considered and listed with their keyword (used as argument for `master.sh`).
+The following metrics are considered and listed with their keyword (used as argument for `giraph.sh`).
 In case a metric is only applicable for directed (D) or undirected (U) graphs, this is noted behind the name.
 Otherwise, the metric can be computed for both kinds of graphs.
 
@@ -44,6 +45,16 @@ Otherwise, the metric can be computed for both kinds of graphs.
 - **CC** - clustering coefficient (U)
 - **RW** - random walk
 - **WC** - weak connectivity
+- ...
+
+
+## Partitioning Schemes
+
+The following partitioning schemes are considered and listed with their keyword (used as argument for `giraph.sh`).
+
+- **HASH** - hash-based partitioning (basically round-robin)
+- **LPA** - based on label propagation
+- ...
 
 ## Giraph file format
 Each line denotes a vertex and its adjacencies, i.e.,
