@@ -36,7 +36,7 @@ public class GiraphWriter {
 					if (buff.length() != 0) {
 						buff.append(",");
 					}
-					buff.append("[" + e.getDifferingNode(u) + ",0]");
+					buff.append("[" + e.getDifferingNode(u).getIndex() + ",0]");
 				}
 			} else {
 				throw new IllegalArgumentException("unknown node type: "
