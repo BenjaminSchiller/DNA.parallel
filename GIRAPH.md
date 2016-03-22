@@ -9,44 +9,30 @@
 
 ## Giraph wrapper
 
-Two scripts are provided as wrappers for Giraph to start workers (`worker.sh`) and masters (`master.sh`).
+We provide a single wrapper script for executing the computation of a list of snapshots in Giraph.
+This computation is executed in the pseudo-distributed setting of Giraph, i.e., master and workers are running on a single machine.
 
-In the initial version, a master is executed on the same machine as all workers it is working with.
-Thereby, the ip address of all instances is assumed to be *127.0.0.1*.
+### `giraph.sh`
 
-### `worker.sh`
+The wrapper script takes the following arguments:
 
-This wrapper script is used to start an instance of a worker which can then be used by a master instance to process a given graph.
+	./giraph.sh $inputDir $from $to $outputDir $metric $workers
 
-`worker.sh` takes the following arguments:
-
-	./worker.sh $port $outputDir
-	
-The worker is then launched ans listens on the specified port for commands of a master.
-Possible output data is written to the specified directory.
-
-### `master.sh`
-
-This wrapper script is used to start an instance of a master which processes a list of graphs and computes a specified metric on each of them.
-
-`master.sh` takes the following arguments:
-
-	./master.sh $direction $inputDir $from $to $outputDir $metric $workers
-
-		$direction: 'U' or 'D' to specify that the graph is undirected or directed
 		$inputDir: directory where the dataset is stored (ending with /)
 		$from: first snapshot to process
 		$to: last snapshot to process
 		$outputDir: directory where to store all output data
 		$metric: keyword that specifies the metric to compute (see below)
-		$workers: list of workers identified by their ports (separated by ,)
+		$workers: number of workers
 
 As an example, take the following execution:
 
-	./master.sh D facebook/ 0 12 results/facebook/ WC 521,525,642
+	./giraph.sh facebook/ 0 12 results/facebook/ WC 4
 
-This launches a master to process the first 13 snapshots of the dataset stored in `facebook/`.
-For each snapshot, the weak connectivity is computed and the work divided among the three workers with ports 521, 525, and 642.
+This launches a master and 4 workers to process the first 13 snapshots of the dataset stored in `facebook/`, i.e., the files `facebook/0.giraph`, `facebook/1.giraph`, ..., `facebook/12.giraph`.
+For each snapshot, the weak connectivity (WC) is computed and the work divided among four workers.
+
+
 
 ## Metrics
 
@@ -56,9 +42,7 @@ Otherwise, the metric can be computed for both kinds of graphs.
 
 - **APSP** - all-pairs shortest paths
 - **CC** - clustering coefficient (U)
-- **PR** - page rank
 - **RW** - random walk
-- **SC** - strong connectivity (D)
 - **WC** - weak connectivity
 
 ## Giraph file format
