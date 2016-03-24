@@ -71,32 +71,62 @@
 
 ## Giraph
 
-<https://www.quora.com/What-are-the-algorithms-built-of-top-of-Giraph-by-far>
+Here, metrics used from giraph examples are listed.
+It is unclear if they are provided for directed and/or undirected graph, we assume that only undirected graphs are implemented.
 
-<http://giraph.apache.org>
+Each algorithm is specified as:
 
-<https://github.com/apache/giraph/tree/release-1.0/giraph-examples/src/main/java/org/apache/giraph/examples>
+- **KEY**: name/link
 
-- weak connectivity
+### sources
+- <https://www.quora.com/What-are-the-algorithms-built-of-top-of-Giraph-by-far>
+- <http://giraph.apache.org>
+- <https://github.com/apache/giraph/tree/release-1.0/giraph-examples/src/main/java/org/apache/giraph/examples>
+
+### we use:
+- **GIRAPH\_WEAK\_CONNECTIVITY**: weak connectivity (?)
+- **GIRAPH\_DEGREE\_DISTRIBUTION**: degree distribution (?)
+- **GIRAPH\_CLUSTERING\_COEFFICIENT**: clustering coefficient (?)
+
+we assume ethat all metrcs are only implemented for undirected graphs.
+this still needs to be checked!
+
+### others:
 - random walk
-- degree distribution
-- clustering coefficient
 - page rank
 
 
 ## Okapi
 
-<http://grafos.ml/okapi.html#analytics>
+Here, metrics used from ocapi are listed.
+*W* identifies algorithms working for weighted graphs, *D* are directed graphs, and *U* are undirected graphs.
+*U & D* means that the algorithm can be applied to directed or undirected graphs, if only one is used the other is assumed to not be supported.
+*W* menas that weighted graphs are supported but no statement about directed or undirected is mde.
 
-- Adamic-Adar similarity
-- B-matching
-- Clustering Coefficient
-- Graph partitioning
-- Jaccard similarity
-- K-core
-- Multi-source shortest paths
-- Semi-Clustering
-- SybilRank
-- Triangles
-- Triangle semi-metricity
+Each algorithm is specified as:
+
+- **KEY**: [name/link]() (*graph type*) (optional description)
+
+### sources
+- <http://grafos.ml/okapi.html#analytics>
+- <https://github.com/grafos-ml/okapi/tree/master/src/main/java/ml/grafos/okapi/graphs>
+
+### we use:
+- **OKAPI\_CLUSTERING\_COEFFICIENT**: [Clustering Coefficient](https://github.com/grafos-ml/okapi/blob/master/src/main/java/ml/grafos/okapi/graphs/ClusteringCoefficient.java) (D & U)
+- **OKAPI\_WEAK\_CONNECTIVITY**: [Connected Components](https://github.com/grafos-ml/okapi/blob/master/src/main/java/ml/grafos/okapi/graphs/ConnectedComponents.java) (i.e., Weak Connectivity)
+- **OKAPI\_APSP\_MULTI**: [Multi-source shortest paths](https://github.com/grafos-ml/okapi/blob/master/src/main/java/ml/grafos/okapi/graphs/MultipleSourceShortestPaths.java) (*W*) (to compute APSP, a list of all vertices (contained in the current graph!) must be provided as landmarks)
+- **OKAPI\_APSP\_SINGLE**: [Single-source shortest paths](https://github.com/grafos-ml/okapi/blob/master/src/main/java/ml/grafos/okapi/graphs/SingleSourceShortestPaths.java) (*D & U*) (to compute APSP, this computation must be executed for each vertex (contained in the current graph!) must be executed separately)
+- **OKAPI\_TRIANGLE\_COUNT**: [TriangleCount](https://github.com/grafos-ml/okapi/blob/master/src/main/java/ml/grafos/okapi/graphs/Triangles.java) (*D*) (use this class to count the number of triangles in the graph)
+- **OKAPI\_TRIANGLE\_FIND**: [TriangleFind](https://github.com/grafos-ml/okapi/blob/master/src/main/java/ml/grafos/okapi/graphs/Triangles.java) (*D*) (use this class to find the occurrences of all triangles in the graph)
+- **OKAPI\_JACCARD**: [Jaccard similarity](https://github.com/grafos-ml/okapi/blob/master/src/main/java/ml/grafos/okapi/graphs/similarity/Jaccard.java) (*U*)
+
+### others:
+- [K-core](https://github.com/grafos-ml/okapi/blob/master/src/main/java/ml/grafos/okapi/graphs/KCore.java)
+- [Semi-clustering](https://github.com/grafos-ml/okapi/blob/master/src/main/java/ml/grafos/okapi/graphs/SemiClustering.java) (W)
+- [Semi-metric](https://github.com/grafos-ml/okapi/blob/master/src/main/java/ml/grafos/okapi/graphs/ScalableSemimetric.java)
+- [Semi-metric triangles](https://github.com/grafos-ml/okapi/blob/master/src/main/java/ml/grafos/okapi/graphs/SemimetricTriangles.java)
+- [Page rang](https://github.com/grafos-ml/okapi/blob/master/src/main/java/ml/grafos/okapi/graphs/SimplePageRank.java)
+- [Sybil rank](https://github.com/grafos-ml/okapi/blob/master/src/main/java/ml/grafos/okapi/graphs/SybilRank.java) (W)
+- [Adamic-Adar similarity](https://github.com/grafos-ml/okapi/blob/master/src/main/java/ml/grafos/okapi/graphs/similarity/AdamicAdar.java) (U)
+- [Maximum B-matching](https://github.com/grafos-ml/okapi/blob/master/src/main/java/ml/grafos/okapi/graphs/maxbmatching/MaxBMatching.java)
 
