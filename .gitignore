@@ -5,3 +5,6 @@ build/test
 
 java/config
 java/data
+
+evaluation/
+test/
