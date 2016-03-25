@@ -12,7 +12,10 @@ import dna.parallel.partition.Partition;
 import dna.parallel.util.ReadableDirConsecutiveWaitingBatchGenerator;
 import dna.parallel.util.ReadableFileWaitingGraph;
 import dna.parallel.util.Sleeper;
+import dna.plot.Plotting;
+import dna.plot.PlottingConfig.PlotFlag;
 import dna.series.Series;
+import dna.series.data.SeriesData;
 import dna.updates.generators.BatchGenerator;
 import dna.util.Config;
 import dna.util.fromArgs.GraphDataStructuresFromArgs.GdsType;
@@ -34,10 +37,13 @@ public class Computation {
 
 	public Sleeper sleeper;
 
+	public boolean plot;
+
 	public Computation(String gdsType, String[] gdsArgs, String inputDir,
 			String graphFilename, String batchSuffix, String outputDir,
 			Integer batches, Integer run, String metricType,
-			String[] metricArgs, String zipType, Long sleep, Long timeoutAfter) {
+			String[] metricArgs, String zipType, Long sleep, Long timeoutAfter,
+			Boolean plot) {
 		this.inputDir = inputDir;
 		this.graphFilename = graphFilename;
 		this.batchSuffix = batchSuffix;
@@ -49,6 +55,7 @@ public class Computation {
 				MetricType.valueOf(metricType), metricArgs);
 		this.zipType = ZipType.valueOf(zipType);
 		this.sleeper = new Sleeper(sleep, 0, timeoutAfter);
+		this.plot = plot;
 	}
 
 	public static enum ZipType {
@@ -98,7 +105,11 @@ public class Computation {
 
 		Series s = new Series(gg, bg, metrics, outputDir, "name");
 		// s.generateRuns(run, run, batches);
-		s.generateRuns(run, run, batches, false, true, 1);
+		SeriesData sd = s.generateRuns(run, run, batches, false, true, 1);
+		if (this.plot) {
+			Plotting.plot(sd, outputDir + "_plots/",
+					PlotFlag.plotSingleScalarValues);
+		}
 	}
 
 }

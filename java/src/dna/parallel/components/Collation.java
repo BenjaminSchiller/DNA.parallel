@@ -2,6 +2,7 @@ package dna.parallel.components;
 
 import argList.ArgList;
 import argList.types.array.StringArrayArg;
+import argList.types.atomic.BooleanArg;
 import argList.types.atomic.EnumArg;
 import argList.types.atomic.IntArg;
 import argList.types.atomic.LongArg;
@@ -18,6 +19,7 @@ import dna.parallel.components.Computation.ZipType;
 import dna.parallel.partition.Partition.PartitionType;
 import dna.parallel.util.Sleeper;
 import dna.plot.Plotting;
+import dna.plot.PlottingConfig.PlotFlag;
 import dna.series.Series;
 import dna.series.data.SeriesData;
 import dna.updates.generators.BatchGenerator;
@@ -44,11 +46,13 @@ public class Collation {
 	public Metric m;
 	public String datasetDir;
 
+	public boolean plot;
+
 	public Collation(String auxDir, String inputDir, String outputDir,
 			String zipType, Integer partitionCount, Integer batches,
 			Integer run, String partitionType, String collationType,
 			String[] collationArgs, Long sleep, Long timeoutAfter,
-			String metricType, String datasetDir) {
+			String metricType, String datasetDir, Boolean plot) {
 		this.auxDir = auxDir;
 		this.inputDir = inputDir;
 		this.outputDir = outputDir;
@@ -67,6 +71,7 @@ public class Collation {
 			this.m = MetricFromArgs.parse(MetricType.valueOf(metricType));
 			this.datasetDir = datasetDir;
 		}
+		this.plot = plot;
 	}
 
 	public static void main(String[] args) throws Exception {
@@ -96,15 +101,17 @@ public class Collation {
 				new EnumArg("metricType", "metric to compute for comparison",
 						MetricType.values()),
 				new StringArg("datasetDir",
-						"dir where the dataset is stored (only used in case the metrics is set (!= '-'"));
+						"dir where the dataset is stored (only used in case the metrics is set (!= '-'"),
+				new BooleanArg("plot",
+						"flag to enable/disable plotting of results"));
 
 		if (args.length == 0) {
 			args = new String[] {
 					"../build/data/Random-100,500-RandomGrowth-10,5-100/1-partitioning/aux/",
 					"../build/data/Random-100,500-RandomGrowth-10,5-100/2-computation/workerPARTITION/",
 					"../build/data/Random-100,500-RandomGrowth-10,5-100/3-collation/",
-					"batches", "10", "5", "0", "Separated", "WCSimpleSeparated",
-					"-", "100", "10000", "WCSimpleR",
+					"batches", "10", "5", "0", "Separated",
+					"WCSimpleSeparated", "-", "100", "10000", "WCSimpleR",
 					"../build/datasets/Random-100,500-RandomGrowth-10,5-100/" };
 		}
 
@@ -129,7 +136,10 @@ public class Collation {
 		Series s = new Series(gg, bg, metrics, outputDir, "collation");
 		Config.overwrite("GENERATION_AS_ZIP", this.zipType.toString());
 		SeriesData sd = s.generateRuns(run, run, batches);
-		Plotting.plot(sd, outputDir + "_plots/");
+		if (plot) {
+			Plotting.plot(sd, outputDir + "_plots/",
+					PlotFlag.plotSingleScalarValues);
+		}
 	}
 
 }
