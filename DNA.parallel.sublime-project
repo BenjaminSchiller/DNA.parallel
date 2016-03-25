@@ -1,0 +1,17 @@
+{
+	"folders":
+	[
+		{
+			"path": "build/",
+			"file_include_patterns": ["*.xml"]
+		},
+		{
+			"path": "evaluation/",
+			"file_include_patterns": ["*.sh", "*.cfg"]
+		},
+		{
+			"path": "execution/",
+			"file_include_patterns": ["*.sh"]
+		}
+	]
+}

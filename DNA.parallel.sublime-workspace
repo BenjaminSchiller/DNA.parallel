@@ -1,0 +1,918 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"partitioning",
+				"partitioningType"
+			],
+			[
+				"par",
+				"partitionType"
+			],
+			[
+				"moti",
+				"motifSize"
+			],
+			[
+				"motifSiz",
+				"motifSizes"
+			],
+			[
+				"motifS",
+				"motifSizes"
+			],
+			[
+				"motifs",
+				"motifSizes"
+			],
+			[
+				"valu",
+				"valueIndex"
+			],
+			[
+				"dstF",
+				"dstFile1"
+			],
+			[
+				"jobs_di",
+				"jobs_dir_processors"
+			],
+			[
+				"jobs_",
+				"jobs_dir_processors"
+			],
+			[
+				"proc",
+				"processors_end"
+			],
+			[
+				"process",
+				"processors_start"
+			],
+			[
+				"zz_",
+				"sp-10-plots__zz___z"
+			],
+			[
+				"ANALYSIS",
+				"ANALYSIS_AND_PLOT"
+			],
+			[
+				"execu",
+				"executionType"
+			],
+			[
+				"nav",
+				"nav_names"
+			],
+			[
+				"array_ke",
+				"array_key_exists"
+			],
+			[
+				"measurements",
+				"measurementsAllX{arg1}{arg2}{arg3}{arg4}	gds-technical-report.tex"
+			],
+			[
+				"st",
+				"staticOptimization-plots"
+			],
+			[
+				"wotgr",
+				"wotgrowthr	wot.tex"
+			],
+			[
+				"wotgro",
+				"wotgrowth	wot.tex"
+			],
+			[
+				"nonen",
+				"nonenglish_unique"
+			],
+			[
+				"nonEnglishC",
+				"nonEnglishCountTotal"
+			],
+			[
+				"nonEngl",
+				"nonEnglishCountUnique"
+			],
+			[
+				"found",
+				"foundFirstLyrics"
+			],
+			[
+				"stats",
+				"stats_dir"
+			],
+			[
+				"sent",
+				"sentimentAnalysis"
+			],
+			[
+				"gettot",
+				"getTotalWordsPerSongMin"
+			],
+			[
+				"getuni",
+				"getUniqueWordsPerSongAvg"
+			],
+			[
+				"gettotal",
+				"getTotalWordsPerSongAvg"
+			],
+			[
+				"son",
+				"songCount"
+			],
+			[
+				"getun",
+				"getUniqueWordsPerSongMin"
+			],
+			[
+				"getwordsper",
+				"getWordsPerSongMax"
+			],
+			[
+				"getwo",
+				"getWordsPerSongMin"
+			],
+			[
+				"def",
+				"defaultdict"
+			],
+			[
+				"drake",
+				"drake"
+			],
+			[
+				"random",
+				"randomDistinctWords"
+			],
+			[
+				"ran",
+				"randomDistinctWords"
+			],
+			[
+				"distinctW",
+				"distinctWordSum"
+			],
+			[
+				"distinctWords",
+				"distinctWords"
+			],
+			[
+				"dist",
+				"distinctWordsPerSong"
+			],
+			[
+				"minWo",
+				"minWordCountPerSong"
+			],
+			[
+				"distin",
+				"distinctWordSum"
+			],
+			[
+				"tot",
+				"totalWordCount"
+			],
+			[
+				"disti",
+				"distinctWordSum"
+			],
+			[
+				"to",
+				"totalWordCount"
+			],
+			[
+				"pri",
+				"printInfo"
+			],
+			[
+				"di",
+				"distinctWordCount"
+			],
+			[
+				"ad",
+				"addSong"
+			],
+			[
+				"printsc",
+				"printScriptBoxesFactor"
+			],
+			[
+				"stre",
+				"streamU	dynamic-motifs.tex"
+			],
+			[
+				"exten",
+				"extension_err"
+			],
+			[
+				"jobs_d",
+				"jobs_dir_new"
+			],
+			[
+				"jo",
+				"jobs_dir_new"
+			],
+			[
+				"ex",
+				"extension_job"
+			],
+			[
+				"job",
+				"jobs_dir_new"
+			],
+			[
+				"jobs",
+				"jobs_dir_done"
+			],
+			[
+				"plotting",
+				"plotting_analysis"
+			],
+			[
+				"plotting_",
+				"plotting_motifs"
+			],
+			[
+				"plot",
+				"plotting_analysis"
+			],
+			[
+				"dataCo",
+				"dataCodingCategory{arg1}	3-data.tex"
+			],
+			[
+				"datac",
+				"dataCodingCategory{arg1}	3-data.tex"
+			],
+			[
+				"plo",
+				"plotting_motifs"
+			],
+			[
+				"movedataset",
+				"moveDatasetList"
+			],
+			[
+				"moveD",
+				"moveDatasetList"
+			],
+			[
+				"runtimes",
+				"runtimes_dna"
+			],
+			[
+				"edgeper",
+				"edgesPerNode"
+			],
+			[
+				"operation",
+				"operationAdd{arg1}{arg2}{arg3}	4-algorithm.tex"
+			],
+			[
+				"operationC",
+				"operationChangeInv{arg1}{arg2}{arg3}{arg4}	4-algorithm.tex"
+			],
+			[
+				"worker",
+				"workers"
+			],
+			[
+				"runtime",
+				"runtimes_dna"
+			],
+			[
+				"gee-ba-u",
+				"gee-ba-u"
+			],
+			[
+				"dataset",
+				"dataset_list_1"
+			],
+			[
+				"data",
+				"dataset_list"
+			],
+			[
+				"x",
+				"x"
+			],
+			[
+				"up",
+				"updates100"
+			],
+			[
+				"gee",
+				"gee-datasets-u"
+			],
+			[
+				"gro",
+				"growingEdgeExchange"
+			],
+			[
+				"gr",
+				"growingEdgeExchange"
+			],
+			[
+				"exchange",
+				"exchangeDenominator"
+			],
+			[
+				"datasets_edges",
+				"datasets_edges_u_list"
+			],
+			[
+				"datasets_e",
+				"datasets_edges_list"
+			],
+			[
+				"datasets_edge",
+				"datasets_edges_d_list"
+			],
+			[
+				"runtimes_rw",
+				"runtimes_rw"
+			],
+			[
+				"runt",
+				"runtimes_dna"
+			],
+			[
+				"sp",
+				"sp"
+			],
+			[
+				"data_u",
+				"data_u"
+			],
+			[
+				"batches",
+				"batches_args"
+			],
+			[
+				"evaluation_si",
+				"evaluation_sizes_g"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					"Clean up Files"
+				]
+			],
+			[
+				"Packages/LaTeXing/LaTeX.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					"Primary Quick Build"
+				],
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					"Choose Quick Build"
+				],
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					"Clean up Files"
+				]
+			],
+			[
+				"Packages/LaTeXing/LaTeX.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"last_filter": "lateing ver",
+		"selected_items":
+		[
+			[
+				"lateing ver",
+				"LaTeXing: Version"
+			],
+			[
+				"lateing",
+				"LaTeXing: Install License"
+			],
+			[
+				"pack",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"update",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"rever",
+				"Permute Lines: Reverse"
+			],
+			[
+				"sortLines",
+				"Sort Lines"
+			],
+			[
+				"package install",
+				"Package Control: Install Package"
+			],
+			[
+				"pretty",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"prett",
+				"Preferences: LaTeXing Settings - Toggle Value"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"latexing inst",
+				"LaTeXing: Install License"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/benni/TUD/Projects/DNA/DNA.parallel/evaluation",
+		"/Users/benni/TUD/Projects/DNA/DNA.parallel/execution"
+	],
+	"file_history":
+	[
+		"/Users/benni/TUD/Projects/DNA/DNA.parallel/execution/master.sh",
+		"/Users/benni/TUD/Projects/DNA/DNA.parallel/evaluation/create.sh",
+		"/Users/benni/TUD/Projects/DNA/DNA.parallel/execution/partitioning.sh",
+		"/Users/benni/TUD/Projects/DNA/DNA.parallel/execution/computation.sh",
+		"/Users/benni/TUD/Projects/DNA/DNA.parallel/evaluation/plot.sh",
+		"/Users/benni/TUD/Projects/DNA/DNA.parallel/execution/collation.sh",
+		"/Users/benni/TUD/Projects/DNA/DNA.parallel/execution/config.sh",
+		"/Users/benni/TUD/Projects/DNA/DNA.parallel/doc/GIRAPH.md",
+		"/Users/benni/TUD/Projects/DNA/DNA.parallel/.gitignore",
+		"/Users/benni/Documents/Bewerbungen/NEC/talk/plots/w2-mon/zz___DegreeDistributionR.InDegreeMax.gnuplot",
+		"/Users/benni/Downloads/IDS/a2/_sufficient.dat",
+		"/Users/benni/TUD/Projects/DNA/DNA.parallel/evaluation/fetch.sh",
+		"/Users/benni/TUD/Projects/DNA/DNA.parallel/evaluation/datasets.sh",
+		"/Users/benni/TUD/Projects/DNA/DNA.StreaM_k/deploy/plot.sh",
+		"/Users/benni/TUD/Projects/DNA/DNA.parallel/evaluation/aggregation.sh",
+		"/Users/benni/TUD/Projects/DNA/DNA.parallel/test/test_old.sh",
+		"/Users/benni/TUD/Projects/DNA/DNA.parallel/evaluation/clean.sh",
+		"/Users/benni/TUD/Projects/DNA/DNA.parallel/evaluation/jobs.sh",
+		"/Users/benni/TUD/Projects/DNA/DNA.parallel/evaluation/jobs.cfg",
+		"/Users/benni/TUD/Projects/DNA/DNA.parallel/execution/test.sh",
+		"/Users/benni/TUD/Projects/DNA/DNA.parallel/build/test.sh",
+		"/Users/benni/TUD/Projects/JOBS/jobs.sh",
+		"/Users/benni/Downloads/IDS/data.sh",
+		"/Users/benni/TUD/Projects/DNA/DNA.StreaM_k/deploy/table.sh",
+		"/Users/benni/TUD/Projects/DNA/DNA.parallel/build/build.xml",
+		"/Users/benni/TUD/Projects/LYRICS/music/lyrics/ramones/Blitzkrieg Bop.txt",
+		"/Users/benni/TUD/Projects/LYRICS/code-1/_processed/ramones/Psycho Therapy.txt",
+		"/Users/benni/TUD/Projects/LYRICS/code-1/_processed/ramones/Chinese Rock.txt",
+		"/Users/benni/TUD/Projects/LYRICS/music/lyrics/ramones/Touring.txt",
+		"/Users/benni/TUD/diss/tex/6-parallelization/6-5.tex",
+		"/Users/benni/TUD/diss/tex/C-etc/commands.tex",
+		"/Users/benni/TUD/diss/tex/6-parallelization/6-1.tex",
+		"/Users/benni/TUD/diss/tex/6-parallelization/6.tex",
+		"/Users/benni/TUD/diss/tex/6-parallelization/6-2.tex",
+		"/Users/benni/TUD/diss/tex/6-parallelization/6-3.tex",
+		"/Users/benni/TUD/diss/tex/6-parallelization/6-4.tex",
+		"/Users/benni/TUD/diss/tikz/6-parallelization/example/complete-aux-1.tex",
+		"/Users/benni/TUD/diss/tikz/6-parallelization/example/complete-aux-2.tex",
+		"/Users/benni/TUD/diss/tikz/6-parallelization/example/complete-aux.tex",
+		"/Users/benni/TUD/diss/tex/diss.tex",
+		"/Users/benni/TUD/diss/tex/4-algorithms/4.tex",
+		"/Users/benni/TUD/diss/tex/2-notation/2-5.tex",
+		"/Users/benni/TUD/diss/tex/2-notation/2-6.tex",
+		"/Users/benni/TUD/diss/tex/9-summary/9.tex",
+		"/Users/benni/TUD/diss/tex/9-summary/9-2.tex",
+		"/Users/benni/TUD/diss/tex/9-summary/9-3.tex",
+		"/Users/benni/TUD/diss/tex/9-summary/9-1.tex",
+		"/Users/benni/TUD/diss/tex/3-related-work/3-1.tex",
+		"/Users/benni/TUD/diss/tex/3-related-work/3-3.tex",
+		"/Users/benni/TUD/diss/tex/3-related-work/3-2.tex",
+		"/Users/benni/TUD/diss/tex/3-related-work/3.tex",
+		"/Users/benni/TUD/diss/tex/5-gds/5-2.tex",
+		"/Users/benni/TUD/diss/tex/5-gds/5-5.tex",
+		"/Users/benni/TUD/diss/tex/5-gds/5-4.tex",
+		"/Users/benni/TUD/diss/tex/5-gds/5.tex",
+		"/Users/benni/TUD/diss/tex/5-gds/5-3.tex",
+		"/Users/benni/TUD/diss/tex/5-gds/5-1.tex",
+		"/Users/benni/TUD/diss/tex/8-use-cases/8-2.tex",
+		"/Users/benni/TUD/diss/tex/6-parallelization/tikzGraph.dat",
+		"/Users/benni/TUD/diss/tex/2-notation/tikzGraph.dat",
+		"/Users/benni/TUD/diss/tex/2-notation/2-1.tex",
+		"/Users/benni/TUD/diss/tex/C-etc/packages.tex",
+		"/Users/benni/TUD/diss/algorithms/4-algorithms/dd/stream-2.tex",
+		"/Users/benni/TUD/diss/algorithms/4-algorithms/dd/stream-1.tex",
+		"/Users/benni/TUD/diss/algorithms/4-algorithms/dd/snapshot.tex",
+		"/Users/benni/TUD/diss/tex/7-dna/7-3.tex",
+		"/Users/benni/TUD/diss/tex/7-dna/7-2.tex",
+		"/Users/benni/TUD/diss/tex/B-appendix/B.tex",
+		"/Users/benni/TUD/diss/tex/7-dna/7-4.tex",
+		"/Users/benni/TUD/diss/tex/7-dna/7.tex",
+		"/Users/benni/TUD/diss/tex/7-dna/7-5.tex",
+		"/Users/benni/TUD/diss/tex/7-dna/7-1.tex",
+		"/Users/benni/TUD/diss/tex/8-use-cases/8.tex",
+		"/Users/benni/TUD/diss/tex/8-use-cases/8-3.tex",
+		"/Users/benni/TUD/diss/tex/8-use-cases/8-1.tex",
+		"/Users/benni/TUD/diss/tex/4-algorithms/4-5.tex",
+		"/Users/benni/TUD/diss/tex/4-algorithms/4-4.tex",
+		"/Users/benni/TUD/diss/tex/4-algorithms/4-3.tex",
+		"/Users/benni/TUD/diss/tex/4-algorithms/4-6.tex",
+		"/Users/benni/TUD/diss/tex/4-algorithms/4-7.tex",
+		"/Users/benni/TUD/diss/tex/4-algorithms/4-2.tex",
+		"/Users/benni/TUD/diss/tex/4-algorithms/4-1.tex",
+		"/Users/benni/TUD/diss/tex/2-notation/2-3.tex",
+		"/Users/benni/TUD/diss/algorithms/4-algorithms/dd/stream.tex",
+		"/Users/benni/TUD/diss/tex/2-notation/2-2.tex",
+		"/Users/benni/TUD/diss/tex/2-notation/2-4.tex",
+		"/Users/benni/TUD/diss/tex/2-notation/adjacencyMatrix.dat",
+		"/Users/benni/TUD/diss/tables/2-notation/approaches/comparison.tex",
+		"/Users/benni/TUD/diss/tikz/2-notation/analysis/batch-based-after.tex",
+		"/Users/benni/TUD/diss/tikz/2-notation/analysis/stream-based-after.tex",
+		"/Users/benni/TUD/diss/tikz/2-notation/analysis/batch-based-before.tex",
+		"/Users/benni/TUD/diss/tikz/2-notation/analysis/stream-based-before.tex",
+		"/Users/benni/TUD/diss/tikz/2-notation/analysis/snapshot-based-sequential.tex",
+		"/Users/benni/TUD/diss/tikz/2-notation/analysis/snapshot-based-non-sequential.tex",
+		"/Users/benni/TUD/diss/tex/2-notation/2.tex",
+		"/Users/benni/Downloads/plotting/data.dat",
+		"/Users/benni/Downloads/plotting/test.gp",
+		"/Users/benni/TUD/diss/tex/2-notation/tab/adjacencyMatrix.dat",
+		"/Users/benni/TUD/diss/tex/2-notation/img/tikzGraph.dat",
+		"/Users/benni/TUD/diss/tex/diss.sublime-project",
+		"/Users/benni/TUD/Projects/LaTeX-Graphs/.gitignore",
+		"/Users/benni/TUD/Projects/LaTeX-Graphs/examples/examples.sh",
+		"/Users/benni/TUD/Projects/DNA/DNA.examples/execution/process.sh",
+		"/Users/benni/TUD/Projects/LaTeX-Graphs/scripts/tikzGraph.py",
+		"/Users/benni/TUD/diss/scripts/tex.sh",
+		"/Users/benni/TUD/diss/scripts/tikzGraph.sh",
+		"/Users/benni/TUD/Projects/LaTeX-Graphs/scripts/adjacencyMatrix.py",
+		"/Users/benni/TUD/diss/scripts/tex/adjacencyMatrix.sh",
+		"/Users/benni/TUD/Projects/LaTeX-Graphs/scripts/common.py",
+		"/Users/benni/TUD/Projects/LaTeX-Graphs/scripts/common.sh",
+		"/Users/benni/TUD/Projects/LaTeX-Graphs/examples/tikzGraph/examples.sh",
+		"/Users/benni/TUD/Projects/LaTeX-Graphs/scripts/TikZGraph.py",
+		"/Users/benni/TUD/Projects/LaTeX-Graphs/scripts/AdjacencyMatrix.py",
+		"/Users/benni/TUD/Projects/DNA/DNA.gdsMeasurements/analysis/functions.sh",
+		"/Users/benni/TUD/diss/tex/0-abstract/0.tex",
+		"/Users/benni/TUD/diss/tex/1-introduction/1.tex",
+		"/Users/benni/TUD/diss/tex/2-notation/model.tex",
+		"/Users/benni/TUD/diss/tex/.gitignore",
+		"/Users/benni/TUD/Projects/DNA/DNA.gdsMeasurements/analysis/config.sh",
+		"/Users/benni/TUD/Projects/DNA/DNA.gdsMeasurements/deploy/create.sh",
+		"/Users/benni/TUD/diss/tex/A-references/A.tex",
+		"/Users/benni/.profile",
+		"/Users/benni/TUD/diss/tex/etc/commands.tex",
+		"/Users/benni/TUD/Projects/DNA/StreaM_k/doc/StreaM_k/algorithm.tex",
+		"/Users/benni/TUD/Papers/_done/motifs/latex-conference/dynamic-motifs.tex",
+		"/Users/benni/TUD/Projects/DNA/StreaM_k/doc/algorithm.tex",
+		"/Users/benni/TUD/Projects/DNA/StreaM_k/rules/stats.sh",
+		"/Users/benni/TUD/Projects/DNA/StreaM_k/analysis/stats.sh"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 196.0,
+		"where_history":
+		[
+			"",
+			"untitled",
+			"",
+			"cf.",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"partitioningScheme",
+			"collation",
+			"worker${worker}",
+			"collation",
+			"$m",
+			"Random-100,0-Random-0,0,10,0-100",
+			"workers",
+			"done with",
+			"\"\n",
+			"resDir",
+			"$workers",
+			"workerOutputDir",
+			"computation",
+			"print",
+			"umn{4}",
+			"{3}{c}",
+			"multicolumn",
+			"tbh",
+			"non-overlapping",
+			"subgr",
+			"^",
+			"AfterNW",
+			"after",
+			"befor",
+			"}{",
+			"algorithm",
+			".5",
+			"algorithmic",
+			"inputTa",
+			" += 1",
+			" -= 1",
+			" += 1",
+			" -= 1",
+			".5",
+			"\\begin{algorithm}",
+			" \\end{algorithm}",
+			".tex",
+			"tex",
+			"\\inp",
+			"tab",
+			"figure",
+			".5",
+			"\n\\inputAlg{dd}{stream-1}{Stream-based algorithm for degree distribution (V1)}",
+			"before",
+			"Edge",
+			":",
+			"• ",
+			"m.",
+			"A_m",
+			"i^{a'",
+			"i^{a}",
+			"m.",
+			"i^{a}",
+			"m_i^{a}",
+			"TabT",
+			"TikzT",
+			"inputTi",
+			"49",
+			"TikzT",
+			"inputtab",
+			"inputtabs",
+			"inputimg",
+			"inputimgs",
+			"inputimgsSix",
+			"& 	",
+			"todo",
+			"update",
+			"table",
+			"fig:",
+			"tab:",
+			"fig:",
+			"tab:",
+			"fig:",
+			"figures",
+			"\\label",
+			"subsection",
+			"itemize",
+			"node",
+			"node/e",
+			"node/ed",
+			"node",
+			"\\forall v \\in V",
+			".l",
+			"local",
+			"\\mathbb{M}",
+			"{d",
+			"^{u",
+			" \\subset \\mathbb{G}^{u}",
+			"circle",
+			"graph",
+			"circle",
+			"graph",
+			"weighted",
+			"inpu",
+			"fig",
+			"inpu",
+			"inp",
+			"vertices",
+			"edges",
+			"vertices",
+			"ref{",
+			"ref",
+			"fig:model",
+			"input",
+			"--",
+			"draw",
+			"caption",
+			"example",
+			"\\",
+			"nodes",
+			"\\",
+			"'",
+			"sizes",
+			"):",
+			"testDir",
+			"description",
+			"]",
+			"\\item[",
+			"description",
+			"itemize",
+			"todox",
+			"IMAGES",
+			"diss",
+			"# plot",
+			"# fit",
+			"# aggregate",
+			"# measure",
+			"aggregate"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"inputTab",
+			"inputTabTwo",
+			"inputTikz",
+			"inputTikzTwo",
+			"inputTikzSix",
+			"\\label{ch:",
+			"&uuml;",
+			"&ouml;",
+			"&auml;",
+			"+",
+			"/",
+			"require",
+			"include(\"/",
+			"include/\"/",
+			"WoT",
+			"WOT_{gr}",
+			"WOT_{com}",
+			"WOT_{25k}",
+			"WOT_{gr,r}",
+			"FF_d",
+			" ",
+			"font \",16\"set terminal pdf font \",16\"",
+			"pdf",
+			".png",
+			"png",
+			"	",
+			"`",
+			"__",
+			"\\fw",
+			"cf.",
+			" 1150000000",
+			" 1000000000",
+			" 1000000",
+			"1000000000",
+			".DM",
+			"\"	\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 41.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 612.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "DNA.parallel.sublime-project",
+	"replace":
+	{
+		"height": 78.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/TUD/Projects/DNA/DNA.StreaM_k/tikz/test1/test1.tex"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/TUD/diss/diss.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 200.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
