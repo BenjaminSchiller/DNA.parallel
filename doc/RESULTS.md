@@ -5,8 +5,9 @@
 	results/
  		$dataset/
  			$batches/
-	 			$metric/
- 					$workers/
- 						$run/
- 						aggr
- 							
+ 				$partitioningType/
+ 					$nodeAssignment/
+		 				$metric/
+ 							$workers/
+ 								$run/
+ 								aggr
