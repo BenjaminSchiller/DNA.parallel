@@ -18,7 +18,6 @@ computationSleep="50"
 computationTimeoutAfter="3600000"
 collationSleep="50"
 collationTimeoutAfter="3600000"
-collationPlotting="false"
 
 run="0"
 

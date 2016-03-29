@@ -2,8 +2,8 @@
 
 source config.sh
 
-if [[ ! $# == "XXXX" ]]; then
-	echo "expecting XXXX arguments, $# given" >&2
+if [[ ! $# == "10" ]]; then
+	echo "master: expecting 10 arguments, $# given" >&2
 	exit
 fi
 
@@ -16,6 +16,7 @@ partitioningType=$6
 workers=$7
 nodeAssignment=$8
 collation=$9
+plot=${10}
 
-echo "./partitioning.sh $direction $datasetDir $dst $batches $partitionType $partitioningType $workers $nodeAssignment"
-echo "./collation.sh $dst $workers $batches $partitionType $collation"
+./partitioning.sh $direction $datasetDir $dst $batches $partitionType $partitioningType $workers $nodeAssignment
+./collation.sh $dst $workers $batches $partitionType $collation $plot
