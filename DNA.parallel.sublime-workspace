@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"output",
+				"outputDirPart"
+			],
+			[
+				"ou",
+				"outputDirAux"
+			],
+			[
+				"comp",
+				"computationTypes"
+			],
+			[
 				"partitioning",
 				"partitioningType"
 			],
@@ -485,13 +497,15 @@
 	],
 	"file_history":
 	[
-		"/Users/benni/TUD/Projects/DNA/DNA.parallel/execution/master.sh",
-		"/Users/benni/TUD/Projects/DNA/DNA.parallel/evaluation/create.sh",
 		"/Users/benni/TUD/Projects/DNA/DNA.parallel/execution/partitioning.sh",
+		"/Users/benni/TUD/Projects/DNA/DNA.parallel/execution/master.sh",
 		"/Users/benni/TUD/Projects/DNA/DNA.parallel/execution/computation.sh",
-		"/Users/benni/TUD/Projects/DNA/DNA.parallel/evaluation/plot.sh",
 		"/Users/benni/TUD/Projects/DNA/DNA.parallel/execution/collation.sh",
+		"/Users/benni/TUD/Projects/DNA/DNA.parallel/evaluation/plot.sh",
+		"/Users/benni/TUD/Projects/DNA/DNA.parallel/evaluation/create.sh",
+		"/Users/benni/TUD/Projects/DNA/DNA.parallel/evaluation/eval.sh",
 		"/Users/benni/TUD/Projects/DNA/DNA.parallel/execution/config.sh",
+		"/Users/benni/TUD/Projects/DNA/DNA.parallel/evaluation/aggregation.sh",
 		"/Users/benni/TUD/Projects/DNA/DNA.parallel/doc/GIRAPH.md",
 		"/Users/benni/TUD/Projects/DNA/DNA.parallel/.gitignore",
 		"/Users/benni/Documents/Bewerbungen/NEC/talk/plots/w2-mon/zz___DegreeDistributionR.InDegreeMax.gnuplot",
@@ -499,7 +513,6 @@
 		"/Users/benni/TUD/Projects/DNA/DNA.parallel/evaluation/fetch.sh",
 		"/Users/benni/TUD/Projects/DNA/DNA.parallel/evaluation/datasets.sh",
 		"/Users/benni/TUD/Projects/DNA/DNA.StreaM_k/deploy/plot.sh",
-		"/Users/benni/TUD/Projects/DNA/DNA.parallel/evaluation/aggregation.sh",
 		"/Users/benni/TUD/Projects/DNA/DNA.parallel/test/test_old.sh",
 		"/Users/benni/TUD/Projects/DNA/DNA.parallel/evaluation/clean.sh",
 		"/Users/benni/TUD/Projects/DNA/DNA.parallel/evaluation/jobs.sh",
@@ -611,12 +624,11 @@
 		"/Users/benni/TUD/Projects/DNA/StreaM_k/doc/StreaM_k/algorithm.tex",
 		"/Users/benni/TUD/Papers/_done/motifs/latex-conference/dynamic-motifs.tex",
 		"/Users/benni/TUD/Projects/DNA/StreaM_k/doc/algorithm.tex",
-		"/Users/benni/TUD/Projects/DNA/StreaM_k/rules/stats.sh",
-		"/Users/benni/TUD/Projects/DNA/StreaM_k/analysis/stats.sh"
+		"/Users/benni/TUD/Projects/DNA/StreaM_k/rules/stats.sh"
 	],
 	"find":
 	{
-		"height": 38.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -635,6 +647,9 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"outputDir",
+			"true",
+			"ls results/$dataset/$batches",
 			"partitioningScheme",
 			"collation",
 			"worker${worker}",
@@ -759,10 +774,7 @@
 			"IMAGES",
 			"diss",
 			"# plot",
-			"# fit",
-			"# aggregate",
-			"# measure",
-			"aggregate"
+			"# fit"
 		],
 		"highlight": true,
 		"in_selection": false,

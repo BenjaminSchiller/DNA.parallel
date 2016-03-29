@@ -2,6 +2,7 @@ package dna.parallel.components;
 
 import argList.ArgList;
 import argList.types.array.StringArrayArg;
+import argList.types.atomic.BooleanArg;
 import argList.types.atomic.EnumArg;
 import argList.types.atomic.IntArg;
 import argList.types.atomic.LongArg;
@@ -79,7 +80,8 @@ public class Computation {
 						"arguments for the metric", ","), new EnumArg(
 						"zipType", "what data to zip", ZipType.values()),
 				new LongArg("sleep", "time to sleep in milliseconds"),
-				new LongArg("timeoutAfter", "timeout in milliseconds"));
+				new LongArg("timeoutAfter", "timeout in milliseconds"),
+				new BooleanArg("plot", "flag to enable/disable plotting"));
 
 		if (args.length == 0) {
 			int worker = 6;
