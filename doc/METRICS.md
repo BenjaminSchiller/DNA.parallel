@@ -84,9 +84,11 @@ Each algorithm is specified as:
 - <https://github.com/apache/giraph/tree/release-1.0/giraph-examples/src/main/java/org/apache/giraph/examples>
 
 ### we use:
-- **GIRAPH\_WEAK\_CONNECTIVITY**: weak connectivity (?)
-- **GIRAPH\_DEGREE\_DISTRIBUTION**: degree distribution (?)
-- **GIRAPH\_CLUSTERING\_COEFFICIENT**: clustering coefficient (?)
+- **GIRAPH\_WEAK\_CONNECTIVITY**: [Connected Components](https://github.com/apache/giraph/blob/release-1.0/giraph-examples/src/main/java/org/apache/giraph/examples/ConnectedComponentsVertex.java) (?)
+- **GIRAPH\_IN\_DEGREE**: [In Degree](https://github.com/apache/giraph/blob/release-1.0/giraph-examples/src/main/java/org/apache/giraph/examples/SimpleInDegreeCountVertex.java) (D & U)
+- **GIRAPH\_OUT\_DEGREE**: [Out Degree](https://github.com/apache/giraph/blob/release-1.0/giraph-examples/src/main/java/org/apache/giraph/examples/SimpleOutDegreeCountVertex.java) (D & U)
+- **GIRAPH\_APSP\_SINGLE**: [Single-source shortest paths](https://github.com/apache/giraph/blob/release-1.0/giraph-examples/src/main/java/org/apache/giraph/examples/SimpleShortestPathsVertex.java) (?)
+- **GIRAPH\_TRIANGLE\_CLOSING**: [Triangle Closing](https://github.com/apache/giraph/blob/release-1.0/giraph-examples/src/main/java/org/apache/giraph/examples/SimpleTriangleClosingVertex.java) (?)
 
 we assume ethat all metrcs are only implemented for undirected graphs.
 this still needs to be checked!
